@@ -13,12 +13,9 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - nextflow
         baseImage:
-          - debian:latest
-          - ubuntu:latest
-          - mcr.microsoft.com/devcontainers/base:ubuntu
+          - mcr.microsoft.com/devcontainers/java:11
     steps:
       - uses: actions/checkout@v2
 
