@@ -1,0 +1,6 @@
+{
+    "name": "Nextflow",
+    "id": "nextflow",
+    "version": "1.0",
+    "description": "A feature to add Nextflow binary to the dev container"
+}

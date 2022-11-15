@@ -1,13 +1,13 @@
 
-# My Favorite Color (color)
+# Nextflow
 
-A feature to remind you of your favorite color
+A feature to add Nextflow binary to the dev container
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/color:1": {
+    "ghcr.io/alvaromartmart/devcontainer-nextflow-feature/nextflow:1": {
         "version": "latest"
     }
 }
@@ -17,8 +17,6 @@ A feature to remind you of your favorite color
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| favorite | Choose your favorite color. | string | red |
-
 
 
 ---
