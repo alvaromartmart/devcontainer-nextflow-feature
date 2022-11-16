@@ -1,0 +1,4 @@
+# Commands to start on workspace startup
+tasks:
+  - name: Setup
+    before: npm i -g @devcontainers/cli
