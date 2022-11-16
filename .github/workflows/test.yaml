@@ -15,7 +15,7 @@ jobs:
         features:
           - nextflow
         baseImage:
-          - mcr.microsoft.com/devcontainers/java:11
+          - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
       - uses: actions/checkout@v2
 
