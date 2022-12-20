@@ -8,5 +8,6 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
 # Install nextflow
 curl -s https://get.nextflow.io | bash
+nextflow self-update
 sudo chmod a+rx nextflow
 sudo mv nextflow /usr/local/bin/
